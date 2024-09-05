@@ -1,0 +1,25 @@
+{
+    "name": "etp/backend",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davi gomes do carmo",
+            "email": "davigomescarmo9@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.12",
+        "slim/psr7": "^1.6",
+        "vlucas/phpdotenv": "^5.6",
+        "aura/sqlquery": "^3.0",
+        "aura/sql": "^5.0",
+        "ramsey/uuid": "^4.7",
+        "lcobucci/jwt": "^4.0",
+        "respect/validation": "^2.3",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
